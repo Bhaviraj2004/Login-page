@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    background-image: url('/121202146-blur-background-of-flare-light-in-the-morning-light-yellow-of-sunrise-above-green-field-warm.jpg');
+    width: 100vw;
+    height: 100vh;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginpage{
+    width: 50%;
+    height: 70%;
+    background-color: rgba(255, 204, 0, 0.2);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h1{
+    font-size: 50px;
+}
+
+.input{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+#username , #password{
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+
+.text{
+    margin: 10px;
+    color: black;
+    margin-bottom: 40px;
+}
+
+#signup{
+padding-right: 160px;
+color: black;
+font-size: 22px;
+text-decoration: none;
+}
+
+#forgotPass{
+color: black;
+font-size: 18px;
+}
+
+#btn{
+    font-size: 20px;
+    width: 90px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(189, 255, 183);
+}
+
+#btn:hover{
+    background-color: rgb(255, 255, 255);
+    transition: ease-in-out 0.2s;
+}
+
+#login{
+    padding-right: 160px;
+    color: black;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+
+#signbtn{
+    font-size: 20px;
+    width: 90px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(189, 255, 183);
+}
+
+#signbtn:hover{
+    background-color: rgb(255, 255, 255);
+    transition: ease-in-out 0.2s;
+}
+
+.toggle-btn {
+    cursor: pointer;
+    margin-left: 10px;
+}
